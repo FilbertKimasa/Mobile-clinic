@@ -1,0 +1,31 @@
+{
+  "name": "mobile-clinic",
+  "version": "1.0.0",
+  "description": "Repository for the website of a mobile medical clinic. This innovative approach to healthcare delivery brings medical professionals and resources directly to underserved or remote areas, ensuring that people have access to essential medical services even if they are unable to reach a fixed healthcare facility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilbertKimasa/Mobile-clinic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilbertKimasa/Mobile-clinic/issues"
+  },
+  "homepage": "https://github.com/FilbertKimasa/Mobile-clinic#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.28.0",
+    "hint": "^7.1.10",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
