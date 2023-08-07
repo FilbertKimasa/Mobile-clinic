@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato;
+  font-family: "Lato", sans-serif;
+}
+
+.backgroung-img {
+  background-image: url(../images/photos/mobile-background-img.png);
+  background-color: d3d3d3;
+  background-size: 100% 95vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  filter: blur(8px);
+  /* -webkit-filter: blur(8px); */
+
+  z-index: 0;
+}
+
+body {
+  /* background-image: url(../images/photos/mobile-background-img.png); */
+  /* background-size: 100% ; */
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.header-cintainer {
+  position: relative;
+  z-index: 20;
+}
+
+.nav {
+  display: block;
+  padding-left: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.bars {
+  font-size: 30px;
+  color: #272a31;
+  /* color: #d3d3d3; */
+  padding: 15px;
+}
+
+.landing {
+  margin: 40px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url("");
+  background-size: 100% auto;
+  padding-bottom: 10px;
+}
+
+.quote {
+  quotes: "";
+  color: #ec5242;
+  font-size: 25px;
+  letter-spacing: 0.09rem;
+  font-weight: 400;
+}
+
+.heading {
+  color: #ec534225;
+  font-size: 34px;
+  text-transform: uppercase;
+  mix-blend-mode: exclusion;
+  font-weight: 1000;
+  background-image: url(../images/photos/text-bg-img.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  margin-top: 10px;
+}
+
+.descriptive-paragraph {
+  padding: 10px;
+  color: #272a31;
+  border: 2px solid #fff;
+}
+
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+#team-section-header {
+  color: #272a31;
+}
+
+.section-header {
+  color: #d3d3d3;
+}
+.program {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/icons/pattern_bg.png);
+  background-color: #272a31;
+  gap: 10px;
+  padding: 10px;
+}
+
+.time-table {
+  font-weight: 1000;
+  color: #272a31;
+}
+
+.program-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.program-card {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: #d3d3d31a;
+  justify-content: space-around;
+}
+
+.program-details {
+  color: #d3d3d3;
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  color: #ec5242;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.program-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.appointment-btn {
+  font-size: 18px;
+  font-weight: 400;
+  height: 70px;
+  background-color: #ec5242;
+  border: none;
+  color: #d3d3d3;
+  letter-spacing: 0.04em;
+  margin: 50px 10% 50px 10%;
+}
+
+hr {
+  width: 15%;
+  background-color: #ec5242;
+  align-self: center;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.team-wraper {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 20px;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.photo {
+  background-image: url(../images/icons/grid-patern.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 120px;
+  height: 120px;
+}
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  margin: auto 1px 1px auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.profile p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.min-datails {
+  color: #ec5242;
+  font-style: italic;
+}
+
+.details {
+  color: #272a31;
+}
+
+.section-partners {
+  display: flex;
+  flex-direction: column;
+  background-color: #272a31;
+}
+
+.partners-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.logo {
+}
+.time-table h2 {
+}
