@@ -71,7 +71,7 @@ body {
 }
 
 .heading {
-  color: #ec534225;
+  color: #ec5342d0;
   font-size: 34px;
   text-transform: uppercase;
   mix-blend-mode: exclusion;
@@ -116,7 +116,7 @@ body {
   background-image: url(../images/icons/pattern_bg.png);
   background-color: #272a31;
   gap: 10px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .time-table {
@@ -138,6 +138,7 @@ body {
 
 .program-details {
   color: #d3d3d3;
+  padding: 5px;
 }
 
 .icon {
@@ -145,7 +146,7 @@ body {
   grid-template-columns: 40% 60%;
   color: #ec5242;
   justify-content: space-around;
-  padding: 15px;
+  padding: 17px 10px 17px 10px;
 }
 
 .program-categories {
@@ -155,18 +156,22 @@ body {
 }
 
 .appointment-btn {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
-  height: 70px;
+  /* height: 70px; */
   background-color: #ec5242;
   border: none;
   color: #d3d3d3;
   letter-spacing: 0.04em;
-  margin: 50px 10% 50px 10%;
+  width: fit-content;
+  margin: 50px 50px;
+  align-self: center;
+  padding: 26px 35px 26px 35px;
+  white-space: nowrap;
 }
 
 hr {
-  width: 15%;
+  width: 60px;
   background-color: #ec5242;
   align-self: center;
 }
@@ -246,7 +251,31 @@ hr {
   width: 100%;
 }
 
-.logo {
+.paretner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.partner-logo {
+  width: 100px;
 }
 .time-table h2 {
+}
+
+@media (max-width: 295px) {
+  .appointment-btn {
+    white-space: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    display: block;
+  }
 }
