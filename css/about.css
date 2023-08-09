@@ -1,0 +1,213 @@
+.about-landing {
+  margin: 60px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-size: 100% auto;
+  padding-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.about-descriptive-paragraph {
+  padding: 10px;
+  color: #272a31;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+.about-section-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-content: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.about-heading {
+  color: transparent;
+  font-size: 30px;
+  text-transform: uppercase;
+  mix-blend-mode: exclusion;
+  font-weight: 800;
+  background-image: url(../images/photos/redOrange-bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.quote {
+  color: #ec5242;
+  font-size: 25px;
+  letter-spacing: 0.09rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-paragraph {
+  font-size: 17px;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.contact u {
+  color: #272a31;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.social-services {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  color: #272a31;
+  border-top: 1px solid #d3d3d3;
+}
+
+.comunity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+  color: #272a31;
+}
+
+.about-logo-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  margin: 40px 20px 40px 20px;
+}
+
+.about-clinic-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.comunity-00 {
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: space-around;
+  text-align: center;
+  padding: 60px 20px 20px 20px;
+  color: #272a31;
+}
+
+.comunity-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.service-01 {
+  background-image: url(../images/photos/service-01.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 190px;
+}
+
+.service-02 {
+  background-image: url(../images//photos/service-02.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 190px;
+}
+
+.service-00 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.service-00 h2 {
+  color: #d3d3d3;
+  font-weight: 1000;
+  font-size: 40px;
+}
+
+.service-00 p {
+  color: #d3d3d3;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 14px;
+  color: #272a31;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer-img {
+  width: 140px;
+  height: 38px;
+}
+
+/* desktop view styling */
+
+@media (min-width: 768px) {
+  .about-landing {
+    gap: 40px;
+  }
+
+  .about-landing div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-heading,
+  .about-descriptive-paragraph,
+  .contact {
+    width: 70%;
+  }
+
+  .comunity {
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+
+  .about-logo-div {
+    /* width: 60%; */
+    align-self: center;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 20px;
+  }
+
+  .comunity-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    align-self: center;
+  }
+}
