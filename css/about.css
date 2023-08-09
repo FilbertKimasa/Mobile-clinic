@@ -42,9 +42,6 @@
   -webkit-background-clip: text;
   margin-top: 10px;
   width: 100%;
-  /* text-align: center;
-  align-items: center;
-  justify-content: center; */
 }
 
 .quote {
@@ -121,6 +118,7 @@
   list-style: none;
   align-items: center;
 }
+
 .service-01 {
   background-image: url(../images/photos/service-01.png);
   background-repeat: no-repeat;
@@ -178,6 +176,7 @@
   .about-landing {
     gap: 40px;
   }
+
   .about-landing div {
     display: flex;
     flex-direction: column;
