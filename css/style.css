@@ -2,13 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: lato;
   font-family: "Lato", sans-serif;
 }
 
 .backgroung-img {
   background-image: url(../images/photos/mobile-background-img.png);
-  background-color: d3d3d3;
   background-size: 100% 95vh;
   background-repeat: no-repeat;
   background-position: top;
@@ -17,14 +15,10 @@
   position: absolute;
   top: 0;
   filter: blur(8px);
-  /* -webkit-filter: blur(8px); */
-
   z-index: 0;
 }
 
 body {
-  /* background-image: url(../images/photos/mobile-background-img.png); */
-  /* background-size: 100% ; */
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -34,10 +28,6 @@ body {
   z-index: 20;
 }
 
-/* .nav {
-  display: block;
-} */
-
 .logo {
   display: none;
 }
@@ -45,6 +35,7 @@ body {
 .bars {
   margin: 35px 30px 25px 20px;
 }
+
 .bars div {
   background-color: #272a31;
   margin: 6px;
@@ -67,7 +58,6 @@ body {
 }
 
 .quote {
-  quotes: "";
   color: #ec5242;
   font-size: 25px;
   letter-spacing: 0.09rem;
@@ -84,7 +74,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-clip: border-box;
+  background-clip: content-box;
   -webkit-background-clip: text;
   margin-top: 10px;
 }
@@ -163,12 +153,10 @@ body {
 .appointment-btn {
   font-size: 24px;
   font-weight: 400;
-  /* height: 70px; */
   background-color: #ec5242;
   border: none;
   color: #d3d3d3;
   letter-spacing: 0.04em;
-  width: fit-content;
   margin: 50px 50px;
   align-self: center;
   padding: 26px 35px 26px 35px;
@@ -304,11 +292,11 @@ u {
 
 @media (max-width: 295px) {
   .appointment-btn {
-    white-space: wrap;
+    white-space: normal;
   }
 }
 
-/* popup menu styling*/
+/* popup menu styling */
 
 @media (max-width: 767px) {
   .menu {
@@ -318,9 +306,6 @@ u {
     top: 0;
     bottom: 0;
     background-color: #272a31;
-    /* color: #d3d3d3; */
-    /* backdrop-filter: blur(5px); */
-    /* padding: 50px; */
     flex-direction: column;
     gap: 3%;
     z-index: 40;
@@ -333,16 +318,8 @@ u {
     margin: 50px 50px 10px 50px;
   }
 
-  /* .display-none {
-    display: none;
-  } */
-
   .menu li {
-    width: 100%;
     font-size: 35px;
-    /* color: #d3d3d3; */
-    text-align: center;
-    /* margin-top: 20px; */
     align-self: center;
     align-items: center;
     text-align: left;
@@ -430,12 +407,12 @@ u {
     padding: 6px;
     vertical-align: middle;
   }
+
   .backgroung-img {
     background-image: url(../images/photos/background-img.png);
   }
 
   .landing {
-    padding-left: 10%;
     padding-left: 10%;
     gap: 50px;
     margin-top: 90px;
@@ -489,8 +466,6 @@ u {
     padding: 15px;
     justify-content: flex-start;
     align-self: center;
-    /* align-items: center; */
-    /* gap: 20px; */
   }
 
   .team-card {
