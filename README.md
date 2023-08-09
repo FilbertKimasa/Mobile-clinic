@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h2>Filbert Portfolio</h2>
+  <h2>Mobile Clinic</h2>
   <br/>
 </div>
 
@@ -46,6 +46,7 @@
 
 - **[Display services available at the clinic]**
 - **[Display timetable and opening hours]**
+- **[Display the events and history of the clinic]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
