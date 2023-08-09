@@ -27,7 +27,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio** is a project to is a project to show my skills and showcase the projects I have done.
+**Portfolio** This is a website of a mobile medical clinic. This innovative approach to healthcare delivery brings medical professionals and resources directly to underserved or remote areas, ensuring that people have access to essential medical services even if they are unable to reach a fixed healthcare facility.
 
 ## 🛠 Built With <a name="built-with"></a>
 
