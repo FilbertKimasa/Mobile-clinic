@@ -2,14 +2,24 @@ const navOpen = document.querySelector('.bars');
 const closeMenu = document.querySelector('.close-btn');
 const mobileNav = document.querySelector('.menu');
 const navLinkClose = document.querySelectorAll('.menu li');
+const aboutLi = document.querySelector('.menu :nth-child(2)');
+const aboutLink = '<a href="/index.html" class="clicked">Home</a>';
+const homeId = document.querySelector('#home');
+const body = document.querySelector('.the-body');
 
 // moibile navigation begin
 navOpen.addEventListener('click', () => {
-  mobileNav.classList.add('nav-active');
+  if (homeId) {
+    mobileNav.classList.add('nav-active');
+  } else {
+    aboutLi.innerHTML = '';
+    aboutLi.innerHTML = `${aboutLink}`;
+    mobileNav.classList.add('nav-active');
+  }
+  body.style.overflow = 'hidden';
 });
 
 const closeMobileNav = () => {
-  // mobileNav.style.display = "";
   mobileNav.classList.remove('nav-active');
   document.body.style.overflow = 'auto';
 };
