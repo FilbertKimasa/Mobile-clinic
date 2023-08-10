@@ -3,7 +3,7 @@ const closeMenu = document.querySelector('.close-btn');
 const mobileNav = document.querySelector('.menu');
 const navLinkClose = document.querySelectorAll('.menu li');
 const aboutLi = document.querySelector('.menu :nth-child(2)');
-const aboutLink = '<a href="/index.html" class="clicked">Home</a>';
+const aboutLink = '<a href="../index.html" class="clicked">Home</a>';
 const homeId = document.querySelector('#home');
 const body = document.querySelector('.the-body');
 
