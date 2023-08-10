@@ -286,8 +286,13 @@ hr {
 
 .hover-btn-effect:hover {
   background-color: #d3d3d3;
-  border: 1px #272a31;
+  border: 1px solid #272a31;
   color: #272a31;
+}
+
+.program-card:hover {
+  border: 1px solid #d3d3d3;
+  transition: 0.5s;
 }
 
 .footer-div {
@@ -454,7 +459,7 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2px;
+    gap: 3px;
   }
 
   .program-card {
