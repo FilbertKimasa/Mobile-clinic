@@ -25,9 +25,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Project name <a name="Mobile-clinic"></a>
+# 📖 Mobile-clinic <a name="Mobile-clinic"></a>
 
-**Mobile-clinic** This is a website of a mobile medical clinic. This innovative approach to healthcare delivery brings medical professionals and resources directly to underserved or remote areas, ensuring that people have access to essential medical services even if they are unable to reach a fixed healthcare facility.
+**Mobile-clinic** is a website of a mobile medical clinic. This innovative approach to healthcare delivery brings medical professionals and resources directly to underserved or remote areas, ensuring that people have access to essential medical services even if they are unable to reach a fixed healthcare facility.
 
 ## 🛠 Built With <a name="built-with"></a>
 
