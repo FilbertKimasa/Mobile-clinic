@@ -122,6 +122,7 @@ To run the project,
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://filbertkimasa.github.io/Mobile-clinic/)
+- [Video Link](https://drive.google.com/file/d/1nAObAVyJq6aNqu1h56JdmlIHEaccigD4/view?usp=drive_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🤝 contributing <a name="contributing"></a>
